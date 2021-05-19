@@ -59,6 +59,24 @@ export default function socialMedia() {
         <i className="fab fa-instagram"></i>
         <span></span>
       </a>
+      {/* <a href={socialMediaLinks.codechef}
+       className="icon-button code"
+        target="_blank"
+        rel="noopener noreferrer"
+        >
+     <i class="fas fa-code"></i>
+        
+        <span></span>
+      </a> */}
+      <a
+        href={socialMediaLinks.hackerrank}
+        className="icon-button hackerrank"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i className="fab fa-hackerrank"></i>
+        <span></span>
+      </a>
     </div>
   );
 }

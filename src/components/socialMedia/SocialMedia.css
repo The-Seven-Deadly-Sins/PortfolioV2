@@ -86,7 +86,25 @@
   color: rgba(255, 255, 255, 1);
   box-shadow: 0 5px 15px #e4405f;
 }
+.codechef i {
+  background-color: navy;
+  transition: all 0.2s ease-in-out;
+}
 
+.codechef i:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px navy;
+}
+
+.hackerrank i {
+  background-color: navy;
+  transition: all 0.2s ease-in-out;
+}
+
+.hackerrank i:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px navy;
+}
 /* Media Query */
 @media (max-width: 768px) {
   .social-media-div {
